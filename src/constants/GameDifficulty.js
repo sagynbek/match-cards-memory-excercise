@@ -1,0 +1,20 @@
+export const GAME_DIFFICULTY = {
+  FISH: "FISH",
+  ELEPHANT: "ELEPHANT",
+  DOLPHIN: "DOLPHIN"
+};
+
+export const DIFFICULTY_LEVEL_CONFIGURATION = {
+  FISH: {
+    MATRIX_WIDTH: 3,
+    MATRIX_HEIGHT: 4
+  },
+  ELEPHANT: {
+    MATRIX_WIDTH: 6,
+    MATRIX_HEIGHT: 6
+  },
+  DOLPHIN: {
+    MATRIX_WIDTH: 8,
+    MATRIX_HEIGHT: 8
+  }
+};
